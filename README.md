@@ -492,7 +492,7 @@ l := list.New()
 l.PushBack("fist")  //在开头插入
 l.PushFront(67)     //在结尾插入
 ```
-看list1.go示例
+看【示例list.go】
 
 遍历list
 ```
@@ -632,6 +632,8 @@ default:
 break 语句可以结束 for、switch 和 select 的代码块，另外 break 语句还可以在语句后面添加标签，表示退出某个标签对应的代码块，标签要求必须定义在对应的 for、switch 和 select 的代码块上。 【示例20】
 continue 语句可以结束当前循环，开始下一次的循环迭代过程，仅限在 for 循环内使用，在 continue 语句后添加标签时，表示开始标签对应的循环【21】
 
+part3 end
+
 ---
 
 
@@ -668,7 +670,7 @@ func rectProps(length, width float64)(float64, float64) {
     return area, perimeter
 }
 ```
-命名返回值]
+命名返回值
 ```
 func rectProps(length, width float64)(area, perimeter float64) {  
     area = length * width

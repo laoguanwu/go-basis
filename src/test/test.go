@@ -5,17 +5,16 @@ import (
 )
 
 func main() {  
-	var a  = [3]int{1, 2, 3}
-	fmt.Println(a[1:])
-	
-	fmt.Println(a[:2])
-	
-	fmt.Println(a[:])
-	b := a[:]
-	
-	fmt.Println(b)
-	fmt.Println(b[0:0])
-	fmt.Println(b)
+	var a = "hello"
+	switch a {
+	case "hello":
+		fmt.Println(1)
+	case "hello2":
+		fmt.Println(2)
+		break
+	default:
+		fmt.Println(0)
+}
 
 	
 

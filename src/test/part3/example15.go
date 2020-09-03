@@ -3,5 +3,7 @@ import (
     "fmt"
 )
 func main() {
-    fmt.Println(nil==nil)
+    var x int
+    var m map[int]string
+    fmt.Println(nil==x)
 }
